@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Naturalexcess">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/images">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NATURAL RESOURCES"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Procuring Natural Resource is a hectic event now a days.We ,at Helpie look forward in holistic management of natural resources.they need there time to get replenished and we will make sure whatever amount is available to us is properly used.Help us do it for the country "
+                android:textAllCaps="true"
+                android:textColor="#F0FFFF"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excesscoal"
+                android:layout_height="50dp"
+                android:text="COAL"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:onClick="excesscoal"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:id="@+id/excesswater"
+                android:layout_height="50dp"
+                android:text="Pure WATER"
+                android:textStyle="bold"
+                android:onClick="excesswater"
+                />
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excessoil"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="OIL"
+                android:textStyle="bold"
+                android:onClick="excessoil"/>
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excessgas"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="GAS"
+                android:textStyle="bold"
+                android:onClick="excessgas"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:onClick="excesselectricity"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:text="ELECTRICITY"
+                android:id="@+id/excessElectricity"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

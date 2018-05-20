@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Need">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/images">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEEDS"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Everyone,has some or other needs we may help you in this regards!Look down to the list we may help you."
+                android:textAllCaps="true"
+                android:textColor="#F0FFFF"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/btnneedwear"
+                android:layout_height="50dp"
+                android:text="Wearable"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:onClick="needwear"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:id="@+id/btnneedgadget"
+                android:layout_height="50dp"
+                android:text="Gadget"
+                android:textStyle="bold"
+                android:onClick="needgadget"
+                />
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/needstationery"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="stationery"
+                android:textStyle="bold"
+                android:onClick="needstationery"/>
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/needfurniture"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="FURniture"
+                android:textStyle="bold"
+                android:onClick="needfurniture"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:onClick="needfootwear"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:text="footwear"
+                android:id="@+id/needfashion"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".FifthActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXCESS"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Every body has something to in abundance and something is scarce.Lets see If we can help you find something that you need!!!"
+            android:textAllCaps="true"
+            android:textColor="#F0FFFF"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:id="@+id/natural1"
+            android:layout_height="50dp"
+            android:text="Natural resources"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:onClick="natural"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:id="@+id/employ"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:text="Employment"
+            android:textStyle="bold"
+            android:onClick="employ"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:id="@+id/intern"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:text="internships"
+            android:textStyle="bold"
+            android:onClick="intern"/>
+        <Button
+            android:layout_width="250dp"
+            android:id="@+id/food"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:layout_height="50dp"
+            android:text="Food"
+            android:textStyle="bold"
+            android:onClick="food"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:onClick="sports"
+            android:text="sports"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:id="@+id/sports"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:id="@+id/specific"
+            android:onClick="needs"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit"
+            android:text="specfic needs"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="170dp" />
+    </LinearLayout>
+</ScrollView>
+
+
+    </android.support.constraint.ConstraintLayout>

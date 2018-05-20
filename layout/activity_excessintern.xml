@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".excessintern">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/images">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INTERNSHIPS"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finding internship could be some be painful and time wasting as well if you dont now where to look upon exactly.We have sorted this for you find the best you love to intern with"
+                android:textAllCaps="true"
+                android:textColor="#F0FFFF"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excesstechnicalintern"
+                android:layout_height="50dp"
+                android:text="TECHNICAL INTERNSHIP"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:onClick="excesstechnicalintern"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:id="@+id/excessmbaintern"
+                android:layout_height="50dp"
+                android:text="BUSSINESS/MBA InTErship"
+                android:textStyle="bold"
+                android:onClick="excessmbaintern"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:id="@+id/excessaccountancyintern"
+                android:layout_height="50dp"
+                android:text="Accountancy internship"
+                android:textStyle="bold"
+                android:onClick="excessaccountancyintern"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excessvocationalintern"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="Vocational Internship"
+                android:textStyle="bold"
+                android:onClick="excessvocationalintern"/>
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excesspaidintern"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="Paid internship"
+                android:textStyle="bold"
+                android:onClick="excesspaidintern"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Helpie!!!To a Better Future"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#7FFFD4"
+                />       </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

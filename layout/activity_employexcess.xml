@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Employexcess"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical"
+
+            android:layout_alignParentLeft="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:background="#2B547E"
+
+                android:layout_alignParentLeft="true">
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EMPLOYMENT"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Every body has something to in abundance and something is scarce.Lets see If we can help you find something that you need!!!"
+                android:textAllCaps="true"
+                android:textColor="#F0FFFF"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excesstechnical"
+                android:layout_height="50dp"
+                android:text="TECHNICAL/IT SECTOR"
+                android:textStyle="bold"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:onClick="excesstechnical"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excessaccountancy"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:text="accountancy/commerce sector"
+                android:textStyle="bold"
+                android:onClick="excesaccountancy"
+                />
+
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excessmba"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:layout_height="50dp"
+                android:text="hr/business management/mba sector"
+                android:textStyle="bold"
+                android:onClick="excessmba"/>
+            <Button
+                android:layout_width="250dp"
+                android:id="@+id/excesswholesale"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:text="Food"
+                android:textStyle="bold"
+                android:onClick="excesswholesale"
+                />
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:onClick="Paidlabour"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/edit"
+                android:text="Paid Labour"
+                android:id="@+id/sports"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Helpie!!!To a Better Future"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#7FFFD4"
+                />       </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
